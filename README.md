@@ -13,6 +13,7 @@ VAT NO: 123-4567-15
 * 5*4=20
 * 6*3=18
 * 7*2=14
+
 Total: 112
 
 1 * 97 = 97, difference = 15 and this is equal to the last two check digits!
