@@ -18,7 +18,7 @@ if __name__ == '__main__':
   total = 0
   for c in rest:
     total = int(c) * multi
-    multi--
+    multi -= 1
   
   while (total > 0):
     total -= 97
