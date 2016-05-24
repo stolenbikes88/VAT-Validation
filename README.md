@@ -6,13 +6,13 @@ A VAT number has 3-4-2 format i.e. 3 digits, a gap, four digits, a gap then 2 di
 
 Example:
 VAT NO: 123-4567-15
-1*8=8
-2*7=14
-3*6=18
-4*5=20
-5*4=20
-6*3=18
-7*2=14
+* 1*8=8
+* 2*7=14
+* 3*6=18
+* 4*5=20
+* 5*4=20
+* 6*3=18
+* 7*2=14
 Total: 112
 
 1 * 97 = 97, difference = 15 and this is equal to the last two check digits!
