@@ -10,7 +10,7 @@ if __name__ == '__main__':
     exit()
   
   #split the VAT Number into the check digits and the rest
-  checkdigit = int(vatnumber[-2:])
+  checkdigit = int('-'+vatnumber[-2:])
   rest = vatnumber[:9].replace('-','')
   
   ## Now start the formula
