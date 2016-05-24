@@ -22,6 +22,9 @@ if __name__ == '__main__':
   
   while (total > 0):
     total -= 97
+    
+  print total
+  print checkdigit
   
   if (total == checkdigit):
     print "Valid VAT Number"
