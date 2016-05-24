@@ -8,17 +8,18 @@ TBC
 A VAT number has 3-4-2 format i.e. 3 digits, a gap, four digits, a gap then 2 digits. The first 7 digits are multiplied by 8,7,6,5,4,3,and 2. Add the resulting figures. Then find the multiple of 97 which is less than the total. Find the difference and this should be equal to last 2 check digits in a valid VAT number!.
 
 Example:
-VAT NO: 123-4567-15
-* 1*8=8
-* 2*7=14
-* 3*6=18
-* 4*5=20
-* 5*4=20
-* 6*3=18
-* 7*2=14
 
-Total: 112
+VAT registration number 339 0727 47
+* 3 *8 = 24
+* 3 *7 = 21
+* 9 *6 = 54
+* 0 *5 = 0
+* 7 *4 = 28
+* 2 *3 = 6
+* 7 *2 = 14
 
-1 * 97 = 97, difference = 15 and this is equal to the last two check digits!
+Total = 147
 
-The formula works but the VAT number should be validated with C&E to avoid fraud!
+147 - 97 = 50 - 97 = - 47
+ 
+As the negative number (- 47) is the same as the last two digits of the VAT number, the number is valid!
