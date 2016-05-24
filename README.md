@@ -6,14 +6,14 @@ After making the file executable using `chmod` run the below
 ```
 root@shell-1:~/VAT-Validation$ ./vatvalidation.py 339-0727-47 
 ```
-
+It's important to note the format `###-####-##`
 
 ## Formula
 A VAT number has 3-4-2 format i.e. 3 digits, a gap, four digits, a gap then 2 digits. The first 7 digits are multiplied by 8,7,6,5,4,3,and 2. Add the resulting figures. Then find the multiple of 97 which is less than the total. Find the difference and this should be equal to last 2 check digits in a valid VAT number!.
 
 Example:
 
-VAT registration number 339 0727 47
+VAT registration number 339-0727-47
 * 3 *8 = 24
 * 3 *7 = 21
 * 9 *6 = 54
