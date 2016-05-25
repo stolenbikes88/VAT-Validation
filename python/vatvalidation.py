@@ -1,6 +1,6 @@
-
 #!/usr/bin/python
 import sys
+
 if __name__ == '__main__':
   vatnumber = sys.argv[1]
   
