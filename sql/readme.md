@@ -26,6 +26,6 @@ Total = 147
  
 As the negative number (- 47) is the same as the last two digits of the VAT number, the number is valid!
 
-There is also a second algorhytm that requests you to take 55 from from the generated number before comparing it to the check digit (this is because HMRC ran out of VAT numbers in 2010) or in the event that taking 55 would equal a negative number you add 42.
+There is also a second algorhytm that requests you to take 55 from from the generated number before comparing it to the check digit (this is because HMRC ran out of VAT numbers in 2010) or in the event that taking 55 would equal a negative number you instead add 42.
 
 
