@@ -54,7 +54,7 @@ BEGIN
 					THEN 1
 				WHEN @total - 55 = @checkdigits
 					THEN 1
-				WHEN @total + 42 = @checkdigits
+				WHEN ((@total - 55) < 0) AND (@total + 42) = @checkdigits
 					THEN 1
 				ELSE 0
 			END
