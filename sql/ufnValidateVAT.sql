@@ -52,6 +52,8 @@ BEGIN
 					THEN 0
 				WHEN @total = @checkdigits
 					THEN 1
+				WHEN @total - 55 = @checkdigits
+					THEN 1
 				ELSE 0
 			END
 	
