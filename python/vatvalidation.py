@@ -28,7 +28,7 @@ if __name__ == '__main__':
     print "Valid VAT Number"
   elif ((total-55) == checkdigit):
     print "Valid VAT Number"
-  elif ((total-55) < 0) && ((total+42) == checkdigit):
+  elif ((total-55) < 0) and ((total+42) == checkdigit):
     print "Valid VAT Number"
   else:
     print "Bad VAT Number"
