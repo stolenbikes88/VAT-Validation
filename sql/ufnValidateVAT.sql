@@ -34,14 +34,14 @@ BEGIN
 	
 	
 	---- Generate our values
-	SET @checkdigits = RIGHT(@VATnumber, 2)
-	SET @digitone = RIGHT(LEFT(@VATnumber, 3), 1)
-	SET @digittwo = RIGHT(LEFT(@VATnumber, 4), 1)
-	SET @digitthree = RIGHT(LEFT(@VATnumber, 5), 1)
-	SET @digitfour = RIGHT(LEFT(@VATnumber, 6), 1)
-	SET @digitfive = RIGHT(LEFT(@VATnumber, 7), 1)
-	SET @digitsix = RIGHT(LEFT(@VATnumber, 8), 1)
-	SET @digitseven = RIGHT(LEFT(@VATnumber, 9), 1)
+	SET @checkdigits = substring(@VATnumber,10,2)
+	SET @digitone = substring(@VATnumber,3,1)
+	SET @digittwo = substring(@VATnumber,4,1)
+	SET @digitthree = substring(@VATnumber,5,1)
+	SET @digitfour = substring(@VATnumber,6,1)
+	SET @digitfive = substring(@VATnumber,7,1)
+	SET @digitsix = substring(@VATnumber,8,1)
+	SET @digitseven = substring(@VATnumber,9,1)
 	
 	-- perform the calculation to check against checkdigit
 	SET @total = (@digitone * 8) + (@digittwo * 7) + (@digitthree * 6) + (@digitfour * 5) + (@digitfive * 4) + (@digitsix * 3) + (@digitseven * 2)
